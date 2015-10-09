@@ -5,8 +5,15 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\break_stone</sound>
+    <sound>sound\room_cleard</sound>
+    <sound>sound\game_over</sound>
     <sound>sound\impact_wall</sound>
+    <sound>sound\impact_padle</sound>
+    <sound>sound\impact_stone</sound>
+    <sound>sound\break_stone</sound>
+    <sound>sound\impact_gold</sound>
+    <sound>sound\break_gold</sound>
+    <sound>sound\break_glass</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wall_spr</sprite>
@@ -19,6 +26,8 @@
     <sprite>sprites\brick_stone_broken_spr</sprite>
     <sprite>sprites\paddle_spr</sprite>
     <sprite>sprites\ball_spr</sprite>
+    <sprite>sprites\power_helth_spr</sprite>
+    <sprite>sprites\power_speed_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -36,6 +45,10 @@
     <object>objects\ball_obj</object>
     <object>objects\paddle_obj</object>
     <object>objects\kill_box_obj</object>
+    <object>objects\lives_obj</object>
+    <object>objects\score_obj</object>
+    <object>objects\power_heath_obj</object>
+    <object>objects\power_speed_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\triforce</room>

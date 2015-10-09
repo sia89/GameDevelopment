@@ -41,7 +41,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>break_stone</sound>
+            <sound>break_gold</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -90,6 +90,31 @@
           <argument>
             <kind>4</kind>
             <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(instance_number(brick_gold_obj) &lt; 1 &amp;&amp; instance_number(brick_gold_broken_obj) &lt; 1 &amp;&amp; instance_number(brick_gold_craked_obj) &lt; 1){
+    with ball_obj instance_destroy();
+    with paddle_obj instance_destroy();
+    draw_text(480,480, "Victory! Score: " + string(score));
+}
+</string>
           </argument>
         </arguments>
       </action>
