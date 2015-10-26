@@ -51,25 +51,44 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(ord('G')) and keyboard_check(vk_left))
+            <string>if (keyboard_check(ord('G')) and Player.x &lt; (x - 50))
    {
-    motion_set(180, 5);
+    instance_create(x, y, object11);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
    }
-else if (keyboard_check(ord('G')) and keyboard_check(vk_right))
+else if (keyboard_check(ord('G')) and Player.x &gt; (x + 5))
    {
-    motion_set(0, 5);
+    instance_create(x, y, object13);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
    }
-else if (keyboard_check(ord('G')) and keyboard_check(vk_down))
+else if (keyboard_check(ord('G')) and Player.y &lt; y)
    {
-    motion_set(270, 5);
+    instance_create(x, y, object15);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
    }
-else if (keyboard_check(ord('G')) and keyboard_check(vk_up))
+else if (keyboard_check(ord('G')) and Player.y &gt; y)
    {
-    motion_set(90, 5);
+    instance_create(x, y, object15);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
    }
-else speed = 0;
 
-if keyboard_check_released(ord('G'))
+if keyboard_check_released(ord('H'))
 {
     boxHealth -= 1;
     if boxHealth &lt;= 0
