@@ -7,7 +7,127 @@
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>boxHealth</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>3</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="Player">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (keyboard_check(ord('G')) and Player.x &lt; (x - 50))
+   {
+    instance_create(x, y, object11);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
+   }
+else if (keyboard_check(ord('G')) and Player.x &gt; (x + 5))
+   {
+    instance_create(x, y, object13);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
+   }
+else if (keyboard_check(ord('G')) and Player.y &lt; y)
+   {
+    instance_create(x, y, object15);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
+   }
+else if (keyboard_check(ord('G')) and Player.y &gt; y)
+   {
+    instance_create(x, y, object15);
+    instance_destroy();
+    with(Player)
+    {
+    instance_destroy();
+    }
+   }
+
+if keyboard_check_released(ord('H'))
+{
+    boxHealth -= 1;
+    if boxHealth &lt;= 0
+    {
+    instance_destroy();
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="wall_plain_obj">
+      <action>
+        <libid>1</libid>
+        <id>101</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>000010000</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>1</PhysicsObjectShape>
