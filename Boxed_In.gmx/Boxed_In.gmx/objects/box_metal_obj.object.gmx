@@ -61,7 +61,7 @@ else if (keyboard_check(ord('G')) and (player_obj.y &gt; (y + 110) and player_ob
     instance_destroy();
     }
    }
-}
+
 </string>
           </argument>
         </arguments>

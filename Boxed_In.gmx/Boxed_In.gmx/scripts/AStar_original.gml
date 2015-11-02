@@ -80,7 +80,8 @@ with (objPathFinder) {
     }
 }
 
-#define AStar_free
+
+#define AStar_free_new
 // Arguments: none
 // Returns: nothing
 
@@ -95,6 +96,7 @@ with (objPathFinder) {
         path_delete(thePath);
     instance_destroy();
 }
+
 #define AStar_setAll
 // Arguments:
 // 0 - Allow diagonal movement
@@ -129,6 +131,7 @@ if (argument4 == -2)
     objPathFinder.coordMode = objPathFinder.def_coordMode;
 else if (argument4 != -1)
     objPathFinder.coordMode = argument4;
+
 #define AStar_setBlocked
 // Arguments:
 // 0 - x
@@ -145,6 +148,7 @@ with (objPathFinder) {
                        floor((argument1-Y_OFFSET)/CELL_HEIGHT)],
                        "blocked",argument2);
 }
+
 #define AStar_setDirBlocked
 // Arguments:
 // 0 - x
@@ -163,7 +167,8 @@ with (objPathFinder) {
                        floor((argument1-Y_OFFSET)/CELL_HEIGHT)],
                        "dir"+string(argument2),argument3);
 }
-#define AStar_findPath
+
+#define AStar_findPath_new
 // Arguments:
 // 0 - x1
 // 1 - y1
@@ -242,7 +247,8 @@ ds_list_destroy(closedList);
 return -1;
 
 }
-#define AStar_getCost
+
+#define AStar_getCost_new
 // Arguments:
 // 0 - node 1
 // 1 - node 2
@@ -254,7 +260,8 @@ if ((ds_map_find_value(argument0,"x") - ds_map_find_value(argument1,"x")) *
    (ds_map_find_value(argument0,"y") - ds_map_find_value(argument1,"y")) == 0)
   return costNormal;
 return costDiag;
-#define AStar_getEstimatedCost
+
+#define AStar_getEstimatedCost_new
 // Arguments:
 // 0 - node 1
 // 1 - node 2
@@ -273,7 +280,8 @@ if (allowDiag) {
 }
 return abs(ds_map_find_value(argument0,"x") - ds_map_find_value(argument1,"x"))
        + abs(ds_map_find_value(argument0,"y") - ds_map_find_value(argument1,"y"));
-#define AStar_getNeighbors
+
+#define AStar_getNeighbors_new
 // Arguments:
 // 0 - node
 //
@@ -308,7 +316,8 @@ for (c=0; c<8; c+=!allowDiag+1) {
 }
 
 return list;
-#define AStar_constructPath
+
+#define AStar_constructPath_new
 // Arguments:
 // 0 - goal node
 // 1 - start node x

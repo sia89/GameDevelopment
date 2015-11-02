@@ -79,17 +79,17 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\AStar_original.gml</script>
-    <script>scripts\AStar_init.gml</script>
-    <script>scripts\AStar_free.gml</script>
-    <script>scripts\AStar_setAll.gml</script>
-    <script>scripts\AStar_setBlocked.gml</script>
-    <script>scripts\AStar_setDirBlocked.gml</script>
+    <script>scripts\AStar_constructPath.gml</script>
     <script>scripts\AStar_findPath.gml</script>
+    <script>scripts\AStar_free.gml</script>
     <script>scripts\AStar_getCost.gml</script>
     <script>scripts\AStar_getEstimatedCost.gml</script>
     <script>scripts\AStar_getNeighbors.gml</script>
-    <script>scripts\AStar_constructPath.gml</script>
+    <script>scripts\AStar_init.gml</script>
+    <script>scripts\AStar_original.gml</script>
+    <script>scripts\AStar_setAll_new.gml</script>
+    <script>scripts\AStar_setBlocked_new.gml</script>
+    <script>scripts\AStar_setDirBlocked_new.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\wall_plain_obj</object>
