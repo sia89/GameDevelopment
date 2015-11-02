@@ -14,22 +14,64 @@
     <sprite>sprites\stairs_down_spr</sprite>
     <sprite>sprites\lantern_spr</sprite>
     <sprite>sprites\npc_ghost_spr</sprite>
-    <sprite>sprites\npc_wraith_spr</sprite>
-    <sprite>sprites\npc_skeleton_spr</sprite>
-    <sprite>sprites\npc_soldier_spr</sprite>
-    <sprite>sprites\player_spr</sprite>
-    <sprite>sprites\player_up_spr</sprite>
-    <sprite>sprites\player_right_spr</sprite>
-    <sprite>sprites\player_down_spr</sprite>
-    <sprite>sprites\player_left_spr</sprite>
-    <sprite>sprites\player_right_push_box_wood_spr</sprite>
-    <sprite>sprites\player_right_pull_box_wood_spr</sprite>
-    <sprite>sprites\player_left_push_box_wood_spr</sprite>
-    <sprite>sprites\player_left_pull_box_wood_spr</sprite>
-    <sprite>sprites\player_up_push_box_wood_spr</sprite>
-    <sprite>sprites\player_up_pull_box_wood_spr</sprite>
-    <sprite>sprites\player_down_push_box_wood_spr</sprite>
-    <sprite>sprites\player_down_pull_box_wood_spr</sprite>
+    <sprites name="moving_skeleton">
+      <sprite>sprites\npc_skeleton_spr</sprite>
+    </sprites>
+    <sprites name="moving_soldier">
+      <sprite>sprites\npc_soldier_spr</sprite>
+    </sprites>
+    <sprites name="moving_wraith">
+      <sprite>sprites\npc_wraith_spr</sprite>
+    </sprites>
+    <sprites name="moving_box">
+      <sprites name="moving_box_explosion">
+        <sprite>sprites\player_right_push_box_explosion_spr</sprite>
+        <sprite>sprites\player_right_pull_box_explosion_spr</sprite>
+        <sprite>sprites\player_left_push_box_explosion_spr</sprite>
+        <sprite>sprites\player_left_pull_box_explosion_spr</sprite>
+        <sprite>sprites\player_up_push_box_explosion_spr</sprite>
+        <sprite>sprites\player_up_pull_box_explosion_spr</sprite>
+        <sprite>sprites\player_down_push_box_explosion_spr</sprite>
+        <sprite>sprites\player_down_pull_box_explosion_spr</sprite>
+      </sprites>
+      <sprites name="moving_box_light">
+        <sprite>sprites\player_right_push_box_light_spr</sprite>
+        <sprite>sprites\player_right_pull_box_light_spr</sprite>
+        <sprite>sprites\player_left_push_box_light_spr</sprite>
+        <sprite>sprites\player_left_pull_box_light_spr</sprite>
+        <sprite>sprites\player_up_push_box_light_spr</sprite>
+        <sprite>sprites\player_up_pull_box_light_spr</sprite>
+        <sprite>sprites\player_down_push_box_light_spr</sprite>
+        <sprite>sprites\player_down_pull_box_light_spr</sprite>
+      </sprites>
+      <sprites name="moving_box_metal">
+        <sprite>sprites\player_right_push_metal_box_spr</sprite>
+        <sprite>sprites\player_right_pull_box_metal_spr</sprite>
+        <sprite>sprites\player_down_push_box_metal_spr</sprite>
+        <sprite>sprites\player_down_pull_box_metal_spr</sprite>
+        <sprite>sprites\player_left_push_box_metal_spr</sprite>
+        <sprite>sprites\player_left_pull_box_metal_spr</sprite>
+        <sprite>sprites\player_up_push_box_metal_spr</sprite>
+        <sprite>sprites\player_up_pull_box_metal_spr</sprite>
+      </sprites>
+      <sprites name="moving_box_wood">
+        <sprite>sprites\player_right_push_box_wood_spr</sprite>
+        <sprite>sprites\player_right_pull_box_wood_spr</sprite>
+        <sprite>sprites\player_left_push_box_wood_spr</sprite>
+        <sprite>sprites\player_left_pull_box_wood_spr</sprite>
+        <sprite>sprites\player_up_push_box_wood_spr</sprite>
+        <sprite>sprites\player_up_pull_box_wood_spr</sprite>
+        <sprite>sprites\player_down_push_box_wood_spr</sprite>
+        <sprite>sprites\player_down_pull_box_wood_spr</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="moving_player">
+      <sprite>sprites\player_spr</sprite>
+      <sprite>sprites\player_up_spr</sprite>
+      <sprite>sprites\player_left_spr</sprite>
+      <sprite>sprites\player_right_spr</sprite>
+      <sprite>sprites\player_down_spr</sprite>
+    </sprites>
     <sprite>sprites\invisable_tile_spr</sprite>
   </sprites>
   <backgrounds name="background">
@@ -56,22 +98,42 @@
     <object>objects\box_explosion_obj</object>
     <object>objects\box_metal_obj</object>
     <object>objects\box_light_obj</object>
+    <object>objects\stairs_down_obj</object>
     <object>objects\npc_ghost_obj</object>
     <object>objects\npc_wraith_obj</object>
     <object>objects\npc_soldier_obj</object>
     <object>objects\npc_skeleton_obj</object>
     <object>objects\player_obj</object>
-    <object>objects\player_right_push_box_wood_obj</object>
-    <object>objects\player_right_pull_box_wood_obj</object>
-    <object>objects\player_left_push_box_wood_obj</object>
-    <object>objects\player_left_pull_box_wood_obj</object>
-    <object>objects\player_up_push_box_wood_obj</object>
-    <object>objects\player_up_pull_box_wood_obj</object>
-    <object>objects\player_down_push_box_wood_obj</object>
-    <object>objects\player_down_pull_box_wood_obj</object>
+    <objects name="moving_box">
+      <objects name="moving_box_explosion">
+        <object>objects\player_right_box_explosion_obj</object>
+        <object>objects\player_left_box_explosion_obj</object>
+        <object>objects\player_up_box_explosion_obj</object>
+        <object>objects\player_down_box_explosion_obj</object>
+      </objects>
+      <objects name="moving_box_light">
+        <object>objects\player_right_box_light_obj</object>
+        <object>objects\player_left_box_light_obj</object>
+        <object>objects\player_up_box_light_obj</object>
+        <object>objects\player_down_box_light_obj</object>
+      </objects>
+      <objects name="moving_box_metal">
+        <object>objects\player_right_box_metal_obj</object>
+        <object>objects\player_left_box_metal_obj</object>
+        <object>objects\player_up_box_metal_obj</object>
+        <object>objects\player_down_box_metal_obj</object>
+      </objects>
+      <objects name="moving_box_wood">
+        <object>objects\player_right_box_wood_obj</object>
+        <object>objects\player_left_box_wood_obj</object>
+        <object>objects\player_up_box_wood_obj</object>
+        <object>objects\player_down_box_wood_obj</object>
+      </objects>
+    </objects>
     <object>objects\tile_pathing_obj</object>
     <object>objects\tile_spowning_obj</object>
-    <object>objects\stairs_down_obj</object>
+    <object>objects\lantern_obj</object>
+    <object>objects\player_counter_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial_room1</room>
