@@ -47,36 +47,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(ord('G')) and (player_obj.x &lt; (x - 70) and player_obj.x &gt; (x - 80)))
+            <string>if (keyboard_check(ord('G')) and player_obj.x &lt; (x - 15))
    {
-    instance_create(x, y, player_right_box_explosion_obj);
+    instance_create(player_obj.x, (player_obj.y - 65), player_right_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
     instance_destroy();
     }
    }
-else if (keyboard_check(ord('G')) and (player_obj.x &gt; (x + 95) and player_obj.x &lt; (x + 105)))
+else if (keyboard_check(ord('G')) and player_obj.x &gt; (x + 100))
    {
-    instance_create(x, y, player_left_box_explosion_obj);
+    instance_create(player_obj.x, (player_obj.y - 65), player_left_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
     instance_destroy();
     }
    }
-else if (keyboard_check(ord('G')) and (player_obj.y &lt; (y - 110) and player_obj.y &gt; (y - 120)))
+else if (keyboard_check(ord('G')) and player_obj.y &lt; (y - 15))
    {
-    instance_create(x, y, player_down_box_explosion_obj);
+    instance_create(player_obj.x, (player_obj.y - 65), player_down_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
     instance_destroy();
     }
    }
-else if (keyboard_check(ord('G')) and (player_obj.y &gt; (y + 110) and player_obj.y &lt; (y + 120)))
+else if (keyboard_check(ord('G')) and player_obj.y &gt; (y + 15))
    {
-    instance_create(x, y, player_up_box_explosion_obj);
+    instance_create(player_obj.x, (player_obj.y - 65), player_up_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
