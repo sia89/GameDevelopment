@@ -135,13 +135,16 @@
     <object>objects\lantern_obj</object>
     <object>objects\player_counter_obj</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\explosions</timeline>
+  </timelines>
   <rooms name="rooms">
+    <room>rooms\test_room</room>
     <room>rooms\tutorial_room1</room>
     <room>rooms\tutorial_room2</room>
     <room>rooms\tutorial_room3</room>
     <room>rooms\tutorial_room4</room>
     <room>rooms\floor1_room1</room>
-    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
