@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="wall_plain_obj" x="0" y="0" name="inst_C98C62F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="wall_plain_obj" x="0" y="115" name="inst_359809F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="0" y="230" name="inst_B196BED4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="0" y="345" name="inst_94A13245" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="0" y="460" name="inst_CEEEB4BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -129,21 +128,17 @@
     <instance objName="tile_pathing_obj" x="575" y="460" name="inst_237B5674" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="460" y="345" name="inst_FAB66207" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="345" y="345" name="inst_3F6FE221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="230" y="345" name="inst_4415AB66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="230" y="460" name="inst_B3AE8EF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="460" y="575" name="inst_EF511C34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="460" y="690" name="inst_3E1E9A60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="575" y="690" name="inst_7FFB121E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="345" y="460" name="inst_82BBC16B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="345" y="575" name="inst_F2715D5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="345" y="690" name="inst_49A8676D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="345" y="805" name="inst_3A0F0C89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="230" y="805" name="inst_313B60FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="230" y="690" name="inst_488C72D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="230" y="575" name="inst_8655755D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="230" y="230" name="inst_82337C81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="230" y="115" name="inst_D1BCF725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="115" y="115" name="inst_CD21DA02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_pathing_obj" x="345" y="115" name="inst_D1BCF725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="115" y="230" name="inst_C21000A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="115" y="345" name="inst_4B724201" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="115" y="460" name="inst_BA40D1D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -169,13 +164,13 @@
     <instance objName="tile_pathing_obj" x="920" y="115" name="inst_057DE298" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="920" y="230" name="inst_872B5889" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="805" y="230" name="inst_40B2BFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="920" y="345" name="inst_53745CAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_pathing_obj" x="805" y="345" name="inst_53745CAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="920" y="460" name="inst_18C3174A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="920" y="575" name="inst_9D9ADD72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="920" y="690" name="inst_A5293E34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="805" y="690" name="inst_47C1AE17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="690" y="690" name="inst_03E6035F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="805" y="345" name="inst_6BA95C59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_pathing_obj" x="920" y="345" name="inst_6BA95C59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="690" y="345" name="inst_9D137539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="690" y="460" name="inst_7C8394FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="690" y="230" name="inst_6DDF1BD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -186,13 +181,22 @@
     <instance objName="tile_pathing_obj" x="690" y="115" name="inst_F6E392E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="575" y="115" name="inst_2376D3EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="460" y="115" name="inst_21775CC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tile_pathing_obj" x="345" y="115" name="inst_A22295FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="575" y="920" name="inst_A48136E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="690" y="920" name="inst_065D9361" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="805" y="920" name="inst_296229C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="920" y="920" name="inst_0B456E48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tile_pathing_obj" x="1035" y="920" name="inst_A39006BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="npc_soldier_obj" x="115" y="115" name="inst_B628D230" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="wall_plain_obj" x="0" y="115" name="inst_38D1EA8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_pathing_obj" x="115" y="115" name="inst_3CEDD172" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="player_obj" x="1035" y="345" name="inst_1665591C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="wall_plain_obj" x="230" y="115" name="inst_10C188CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="wall_plain_obj" x="230" y="230" name="inst_28E02285" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="wall_plain_obj" x="230" y="345" name="inst_E7636180" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_explosion_obj" x="1265" y="345" name="inst_F366E633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_wood_obj" x="1265" y="460" name="inst_948D58F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_metal_obj" x="1380" y="575" name="inst_DC13948C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="player_counter_obj" x="345" y="460" name="inst_514CA68E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_explosion_obj" x="1380" y="345" name="inst_A0B8DDAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
