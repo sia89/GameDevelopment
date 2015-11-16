@@ -96,8 +96,7 @@ with (box_explosion_obj)
     if (box_explosion_obj.x &lt;= (x - 200) or box_explosion_obj.x &gt;= (x + 200) and box_explosion_obj.y &lt;= (y - 200) or box_explosion_obj.y &gt;= (y + 200))
     {
         
-        box_explosion_obj.timeline_position = 0;
-        box_explosion_obj.timeline_running = true;
+        box_explosion_obj.health -=1;
         
     }
 }
