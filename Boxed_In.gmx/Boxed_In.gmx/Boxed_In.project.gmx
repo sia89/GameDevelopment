@@ -13,6 +13,8 @@
     <sprite>sprites\box_light_spr</sprite>
     <sprite>sprites\stairs_down_spr</sprite>
     <sprite>sprites\lantern_spr</sprite>
+    <sprite>sprites\npc_save_ghost</sprite>
+    <sprite>sprites\npc_end_ghost</sprite>
     <sprite>sprites\npc_ghost_spr</sprite>
     <sprites name="moving_skeleton">
       <sprite>sprites\npc_skeleton_spr</sprite>
@@ -22,6 +24,14 @@
     </sprites>
     <sprites name="moving_wraith">
       <sprite>sprites\npc_wraith_spr</sprite>
+      <sprite>sprites\wraith_up</sprite>
+      <sprite>sprites\wraith_right</sprite>
+      <sprite>sprites\wraith_down</sprite>
+      <sprite>sprites\wraith_left</sprite>
+      <sprite>sprites\wraith_attack_up</sprite>
+      <sprite>sprites\wraith_attack_down</sprite>
+      <sprite>sprites\wraith_attack_right</sprite>
+      <sprite>sprites\wraith_attack_left</sprite>
     </sprites>
     <sprites name="moving_box">
       <sprites name="moving_box_explosion">
@@ -33,6 +43,7 @@
         <sprite>sprites\player_up_pull_box_explosion_spr</sprite>
         <sprite>sprites\player_down_push_box_explosion_spr</sprite>
         <sprite>sprites\player_down_pull_box_explosion_spr</sprite>
+        <sprite>sprites\exploding_box_break</sprite>
       </sprites>
       <sprites name="moving_box_light">
         <sprite>sprites\player_right_push_box_light_spr</sprite>
@@ -63,6 +74,7 @@
         <sprite>sprites\player_up_pull_box_wood_spr</sprite>
         <sprite>sprites\player_down_push_box_wood_spr</sprite>
         <sprite>sprites\player_down_pull_box_wood_spr</sprite>
+        <sprite>sprites\wood_box_break</sprite>
       </sprites>
     </sprites>
     <sprites name="moving_player">
@@ -71,8 +83,15 @@
       <sprite>sprites\player_left_spr</sprite>
       <sprite>sprites\player_right_spr</sprite>
       <sprite>sprites\player_down_spr</sprite>
+      <sprite>sprites\player_takes_small_hit</sprite>
+      <sprite>sprites\player_KO</sprite>
+      <sprite>sprites\player_attack_down</sprite>
+      <sprite>sprites\player_attack_right</sprite>
+      <sprite>sprites\player_attack_up</sprite>
+      <sprite>sprites\player_attack_left</sprite>
     </sprites>
     <sprite>sprites\invisable_tile_spr</sprite>
+    <sprite>sprites\sprite67</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\floor_plain</background>
