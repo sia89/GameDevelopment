@@ -153,6 +153,7 @@
     <object>objects\tile_spowning_obj</object>
     <object>objects\lantern_obj</object>
     <object>objects\player_counter_obj</object>
+    <object>objects\objPathFinder</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\explosions</timeline>

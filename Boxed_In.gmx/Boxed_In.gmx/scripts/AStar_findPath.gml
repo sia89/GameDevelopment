@@ -72,7 +72,6 @@ while (!ds_priority_empty(openList)) {
 
 ds_priority_destroy(openList);
 ds_list_destroy(closedList);
-
 return -1;
 
 }
