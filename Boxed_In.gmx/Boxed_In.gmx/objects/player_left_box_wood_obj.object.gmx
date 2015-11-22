@@ -537,11 +537,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>125</string>
+            <string>75</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>55</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

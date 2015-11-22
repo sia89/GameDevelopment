@@ -73,16 +73,16 @@
             <kind>1</kind>
             <string>if (keyboard_check(ord('G')) and player_obj.x &lt; (x - 15))
    {
-    instance_create(player_obj.x, (player_obj.y - 65), player_right_box_explosion_obj);
+    instance_create(player_obj.x, player_obj.y, player_right_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
     instance_destroy();
     }
    }
-else if (keyboard_check(ord('G')) and player_obj.x &gt; (x + 100))
+else if (keyboard_check(ord('G')) and player_obj.x &gt; (x + 50))
    {
-    instance_create(player_obj.x, (player_obj.y - 65), player_left_box_explosion_obj);
+    instance_create(self.x, self.y, player_left_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
@@ -91,7 +91,7 @@ else if (keyboard_check(ord('G')) and player_obj.x &gt; (x + 100))
    }
 else if (keyboard_check(ord('G')) and player_obj.y &lt; (y - 15))
    {
-    instance_create(player_obj.x, (player_obj.y - 65), player_down_box_explosion_obj);
+    instance_create(player_obj.x, player_obj.y, player_down_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
@@ -100,7 +100,7 @@ else if (keyboard_check(ord('G')) and player_obj.y &lt; (y - 15))
    }
 else if (keyboard_check(ord('G')) and player_obj.y &gt; (y + 15))
    {
-    instance_create(player_obj.x, (player_obj.y - 65), player_up_box_explosion_obj);
+    instance_create(self.x, self.y, player_up_box_explosion_obj);
     instance_destroy();
     with(player_obj)
     {
