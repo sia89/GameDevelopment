@@ -142,7 +142,10 @@
     <instance objName="wall_plain_obj" x="500" y="500" name="inst_6A12D486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="500" y="700" name="inst_63B466B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="300" y="700" name="inst_7D810F1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="box_wood_obj" x="1000" y="250" name="inst_02056F35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_wood_obj" x="1000" y="300" name="inst_02056F35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stairs_down_obj" x="600" y="800" name="inst_C6D2E523" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="tile_portal_obj" x="100" y="250" name="inst_DE59BD58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_spowning_obj" x="1100" y="400" name="inst_8ECB95AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

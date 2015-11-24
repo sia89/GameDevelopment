@@ -5,6 +5,34 @@
     <event>
       <action>
         <libid>1</libid>
+        <id>541</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sprite_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>exploding_box_break</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>4</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>.25</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>532</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -23,15 +51,15 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>57.5</string>
+            <string>50</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>57.5</string>
+            <string>50</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>1</string>
+            <string>2</string>
           </argument>
           <argument>
             <kind>13</kind>
@@ -59,13 +87,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> with (player_obj)
+            <string>with (player_obj)
 {
-    if ((other.y &lt;= (y + 115)))
+    if ((other.y &lt;= (y + 199)))
     {
-        if (other.y &gt;= (y-115) and ((x &lt;= (other.x+115)) and (x &gt;= (other.x -115))))
+        if (other.y &gt;= (y-199) and ((x &lt;= (other.x+199)) and (x &gt;= (other.x-199))))
         {
-            player_counter_obj.health -= 2;
+            player_counter_obj.health -= 10;
         }
     }
  }
@@ -91,9 +119,9 @@
             <kind>1</kind>
             <string>with (box_wood_obj)
 {
-    if ((other.y &lt;= (y + 115)))
+    if ((other.y &lt;= (y + 199)))
     {
-        if (other.y &gt;= (y-115) and ((x &lt;= (other.x+115)) and (x &gt;= (other.x -115))))
+        if (other.y &gt;= (y-199) and ((x &lt;= (other.x+199)) and (x &gt;= (other.x -199))))
         {
             boxHealth -= 1;
         }
@@ -102,9 +130,9 @@
 
 with (box_explosion_obj)
 {
-    if ((other.y &lt;= (y + 115)))
+    if ((other.y &lt;= (y + 199)))
     {
-        if (other.y &gt;= (y-115) and ((x &lt;= (other.x+115)) and (x &gt;= (other.x -115))))
+        if (other.y &gt;= (y-199) and ((x &lt;= (other.x+199)) and (x &gt;= (other.x -199))))
         {
           boxHealth -= 1;
         }

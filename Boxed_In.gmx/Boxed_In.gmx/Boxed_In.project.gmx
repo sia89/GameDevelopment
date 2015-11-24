@@ -14,8 +14,8 @@
     <sprite>sprites\stairs_down_spr</sprite>
     <sprite>sprites\lantern_spr</sprite>
     <sprite>sprites\npc_save_ghost</sprite>
-    <sprite>sprites\npc_end_ghost</sprite>
     <sprite>sprites\npc_ghost_spr</sprite>
+    <sprite>sprites\npc_end_ghost</sprite>
     <sprites name="moving_skeleton">
       <sprite>sprites\npc_skeleton_spr</sprite>
     </sprites>
@@ -149,7 +149,7 @@
         <object>objects\player_down_box_wood_obj</object>
       </objects>
     </objects>
-    <object>objects\tile_pathing_obj</object>
+    <object>objects\tile_portal_obj</object>
     <object>objects\tile_spowning_obj</object>
     <object>objects\lantern_obj</object>
     <object>objects\player_counter_obj</object>
@@ -159,12 +159,12 @@
     <timeline>timelines\explosions</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\test_room</room>
     <room>rooms\tutorial_room1</room>
     <room>rooms\tutorial_room2</room>
     <room>rooms\tutorial_room3</room>
     <room>rooms\tutorial_room4</room>
     <room>rooms\floor1_room1</room>
+    <room>rooms\test_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

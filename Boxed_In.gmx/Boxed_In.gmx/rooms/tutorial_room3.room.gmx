@@ -95,7 +95,7 @@
     <instance objName="wall_plain_obj" x="0" y="300" name="inst_184373DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="0" y="200" name="inst_0FC48BD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="0" y="100" name="inst_3F18514E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="wall_plain_obj" x="200" y="150" name="inst_0428AC18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="wall_plain_obj" x="200" y="200" name="inst_0428AC18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="200" y="400" name="inst_A19913D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="300" y="400" name="inst_077489E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="400" y="400" name="inst_A67E27D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -130,18 +130,16 @@
     <instance objName="box_wood_obj" x="600" y="300" name="inst_BD78EBAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="700" y="500" name="inst_FB8C8191" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="400" y="500" name="inst_24036A16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="box_wood_obj" x="200" y="500" name="inst_9CFE6248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="box_wood_obj" x="100" y="500" name="inst_3CF46404" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="200" y="800" name="inst_8F907D88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="400" y="700" name="inst_9D4BC2B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="500" y="900" name="inst_FBB68C20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="400" y="1000" name="inst_BBE306C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="800" y="900" name="inst_FEC0D138" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="1000" y="800" name="inst_8BF663C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="box_wood_obj" x="1150" y="1000" name="inst_725468DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_wood_obj" x="1200" y="1000" name="inst_725468DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="1100" y="200" name="inst_4080E3CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="1000" y="200" name="inst_E6AB4573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="box_wood_obj" x="100" y="400" name="inst_55098E66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_wood_obj" x="100" y="300" name="inst_55098E66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_metal_obj" x="500" y="300" name="inst_D721C712" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_metal_obj" x="600" y="200" name="inst_EAE91979" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_metal_obj" x="800" y="300" name="inst_728D3C83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -168,6 +166,12 @@
     <instance objName="wall_plain_obj" x="600" y="0" name="inst_ADC63117" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_light_obj" x="100" y="900" name="inst_A682AA76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="npc_ghost_obj" x="100" y="1000" name="inst_5C4CEE31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_portal_obj" x="550" y="100" name="inst_01D6BEEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_metal_obj" x="100" y="400" name="inst_172B5719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_metal_obj" x="100" y="500" name="inst_3B5F3841" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="box_wood_obj" x="200" y="500" name="inst_23F7F2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_spowning_obj" x="600" y="500" name="inst_FC8CAADD" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="tile_spowning_obj" x="900" y="900" name="inst_DA31E904" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

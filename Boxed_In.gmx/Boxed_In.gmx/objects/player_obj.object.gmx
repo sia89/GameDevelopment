@@ -58,6 +58,52 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="9" enumb="72">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_speed = 0;
+switch player_counter_obj.direction
+{
+    case 90:
+        image_index = player_attack_up;
+        image_index = 1;
+        image_index = player_up_spr;
+        break;
+    case 270:
+        image_index = player_attack_down;
+        image_index = 1;
+        image_index = player_down_spr;
+        break;
+    case 180: 
+        image_index = player_attack_left;
+        image_index = 1;
+        image_index = player_left_spr;
+        break;
+    case 0:
+        image_index = player_attack_right;
+        image_index = 1;
+        image_index = player_right_spr;
+        break;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="40">
       <action>
         <libid>1</libid>
@@ -274,7 +320,57 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="10" enumb="72">
+      <action>
+        <libid>1</libid>
+        <id>101</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>000010000</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="10" enumb="40">
+      <action>
+        <libid>1</libid>
+        <id>101</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>000010000</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -296,30 +392,6 @@
           <argument>
             <kind>0</kind>
             <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>000010000</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -503,9 +575,9 @@
   <PhysicsObjectAwake>0</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>-67,-68</point>
-    <point>67,-68</point>
-    <point>67,68</point>
-    <point>-67,68</point>
+    <point>0,0</point>
+    <point>100,0</point>
+    <point>100,100</point>
+    <point>0,100</point>
   </PhysicsShapePoints>
 </object>

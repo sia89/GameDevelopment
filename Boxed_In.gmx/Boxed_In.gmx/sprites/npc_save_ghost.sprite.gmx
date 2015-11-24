@@ -21,6 +21,5 @@
   <height>100</height>
   <frames>
     <frame index="0">images\npc_save_ghost_0.png</frame>
-    <frame index="1">images\npc_save_ghost_1.png</frame>
   </frames>
 </sprite>

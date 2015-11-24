@@ -51,7 +51,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player_counter_obj.health -= 10;
+            <string>player_counter_obj.health -= 20;
 </string>
           </argument>
         </arguments>

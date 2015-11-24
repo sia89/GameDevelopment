@@ -253,6 +253,8 @@
     <instance objName="wall_plain_obj" x="1600" y="1300" name="inst_2B5C3C3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall_plain_obj" x="1300" y="700" name="inst_68D179EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="box_wood_obj" x="800" y="200" name="inst_4D30BABA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_portal_obj" x="1200" y="900" name="inst_130E760D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tile_spowning_obj" x="100" y="300" name="inst_03FF35BD" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
