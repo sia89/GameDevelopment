@@ -33,8 +33,8 @@
           </argument>
         </arguments>
       </action>
-      </event>
-      <event eventtype="3" enumb="0">
+    </event>
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -56,7 +56,8 @@
               timeline_index = "explosions";
               timeline_running = true;
             }
-            </string>
+            
+</string>
           </argument>
         </arguments>
       </action>
@@ -142,7 +143,7 @@ if keyboard_check_released(ord('H'))
         <arguments>
           <argument>
             <kind>1</kind>
-            <timeline>boxHealth</timeline>
+            <string>boxHealth</string>
           </argument>
           <argument>
             <kind>0</kind>
